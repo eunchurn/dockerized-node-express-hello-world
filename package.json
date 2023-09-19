@@ -1,6 +1,6 @@
 {
   "name": "dockerized-node-express-hello-world",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dockerized nodejs express hello world example",
   "keywords": [],
   "license": "MIT",
