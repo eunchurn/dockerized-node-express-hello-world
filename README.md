@@ -1,5 +1,7 @@
 # dockerized-node-express-hello-world
 
+[![Deployment to Docker hub](https://github.com/eunchurn/dockerized-node-express-hello-world/actions/workflows/build.yml/badge.svg)](https://github.com/eunchurn/dockerized-node-express-hello-world/actions/workflows/build.yml)
+
 Dockerized nodejs express hello world example
 
 ## Docker pull
