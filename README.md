@@ -8,6 +8,12 @@ Dockerized nodejs express hello world example
 docker pull eunchurn/dockerized-node-express-hello-world:latest
 ```
 
+## Docker build
+
+```
+docker build -t eunchurn/dockerized-node-express-hello-world .
+```
+
 ## Run
 
 ```

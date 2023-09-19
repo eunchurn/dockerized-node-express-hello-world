@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc && tsc-alias",
     "dev": "dotenv -e .env.example -- ts-node-dev src/index.ts",
-    "prepare": "husky install",
+    "prepare": "husky install || true",
     "test": "dotenv -e .env.example -- jest",
     "typecheck": "tsc --noEmit",
     "release": "standard-version"
