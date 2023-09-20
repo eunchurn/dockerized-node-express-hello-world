@@ -1,6 +1,6 @@
 # dockerized-node-express-hello-world
 
-[![Deployment to Docker hub](https://github.com/eunchurn/dockerized-node-express-hello-world/actions/workflows/build.yml/badge.svg)](https://github.com/eunchurn/dockerized-node-express-hello-world/actions/workflows/build.yml)
+[![Deployment to Docker hub](https://github.com/eunchurn/dockerized-node-express-hello-world/actions/workflows/dockerhub.yml/badge.svg)](https://github.com/eunchurn/dockerized-node-express-hello-world/actions/workflows/dockerhub.yml) [![Deployment to Github Container Registry](https://github.com/eunchurn/dockerized-node-express-hello-world/actions/workflows/ghcr.yml/badge.svg)](https://github.com/eunchurn/dockerized-node-express-hello-world/actions/workflows/ghcr.yml)
 
 Dockerized nodejs express hello world example
 
@@ -8,6 +8,12 @@ Dockerized nodejs express hello world example
 
 ```
 docker pull eunchurn/dockerized-node-express-hello-world:latest
+```
+
+or
+
+```
+docker pull ghcr.io/eunchurn/dockerized-node-express-hello-world:latest
 ```
 
 ## Docker build
