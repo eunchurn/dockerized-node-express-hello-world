@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/eunchurn/dockerized-node-express-hello-world/compare/v0.0.5...v0.0.6) (2023-09-20)
+
+### Bug Fixes
+
+- **ghcr:** add registry ([c4987f3](https://github.com/eunchurn/dockerized-node-express-hello-world/commit/c4987f3e9a47c6e26c4d0f4b2703bd12d37ad0e7))
+
 ### [0.0.5](https://github.com/eunchurn/dockerized-node-express-hello-world/compare/v0.0.4...v0.0.5) (2023-09-20)
 
 ### Features
