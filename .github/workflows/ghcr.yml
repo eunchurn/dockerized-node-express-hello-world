@@ -2,7 +2,7 @@ name: Deployment to Docker hub
 
 on:
   push:
-    branches: [release/ghcr]
+    branches: [release]
     tags: [v*]
 
 env:
