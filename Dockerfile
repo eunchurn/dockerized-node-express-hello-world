@@ -1,4 +1,4 @@
-FROM node:20.10-alpine AS deps
+FROM node:21.2-alpine AS deps
 
 RUN apk add openssl git openssl-dev libc6-compat python3 make gcc g++ zlib-dev
 
@@ -10,7 +10,7 @@ RUN npm install -g npm@9.6.4
 RUN npm install -g pnpm@8.7.6 && pnpm i;
 
 # 2. Rebuild the source code only when needed
-FROM node:20.10-alpine AS builder
+FROM node:21.2-alpine AS builder
 
 WORKDIR /app
 
@@ -21,7 +21,7 @@ RUN npm install -g pnpm@8.7.6
 RUN pnpm build --debug
 
 # 3. Production image, copy all the files and run next
-FROM node:20.10-alpine AS runner
+FROM node:21.2-alpine AS runner
 WORKDIR /app
 
 ARG PORT
