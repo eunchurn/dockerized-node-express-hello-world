@@ -30,7 +30,7 @@
     "@types/jest": "^29.5.5",
     "@types/module-alias": "^2.0.2",
     "@types/node": "^20.6.2",
-    "@types/supertest": "^2.0.12",
+    "@types/supertest": "^6.0.0",
     "cross-env": "^7.0.3",
     "dotenv-cli": "^7.3.0",
     "husky": "8.0.3",
