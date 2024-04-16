@@ -31,8 +31,8 @@ importers:
         specifier: ^20.6.2
         version: 20.12.7
       '@types/supertest':
-        specifier: ^2.0.12
-        version: 2.0.16
+        specifier: ^6.0.0
+        version: 6.0.2
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -527,8 +527,8 @@ packages:
   '@types/superagent@8.1.4':
     resolution: {integrity: sha512-uzSBYwrpal8y2X2Pul5ZSWpzRiDha2FLcquaN95qUPnOjYgm/zQ5LIdqeJpQJTRWNTN+Rhm0aC8H06Ds2rqCYw==}
 
-  '@types/supertest@2.0.16':
-    resolution: {integrity: sha512-6c2ogktZ06tr2ENoZivgm7YnprnhYE4ZoXGMY+oA7IuAf17M8FWvujXZGmxLv8y0PTyts4x5A+erSwVUFA8XSg==}
+  '@types/supertest@6.0.2':
+    resolution: {integrity: sha512-137ypx2lk/wTQbW6An6safu9hXmajAifU/s7szAHLN/FeIm5w7yR0Wkl9fdJMRSHwOn4HLAI0DaB2TOORuhPDg==}
 
   '@types/yargs-parser@21.0.0':
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
@@ -3397,8 +3397,9 @@ snapshots:
       '@types/methods': 1.1.4
       '@types/node': 20.12.7
 
-  '@types/supertest@2.0.16':
+  '@types/supertest@6.0.2':
     dependencies:
+      '@types/methods': 1.1.4
       '@types/superagent': 8.1.4
 
   '@types/yargs-parser@21.0.0': {}
